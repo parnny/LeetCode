@@ -19,5 +19,9 @@ func main() {
 	//fmt.Println(LeetCode.LongestCommonPrefix([]string{"flower","flow","flight"}))
 	//fmt.Println(LeetCode.LongestCommonPrefix([]string{"abca","abc"}))
 	//fmt.Println(LeetCode.IsValidParentheses("[(){}]"))
-	fmt.Println(LeetCode.FairCandySwap([]int{1,2},[]int{2,3}))
+	//fmt.Println(LeetCode.FairCandySwap([]int{1,2},[]int{2,3}))
+	//fmt.Println(LeetCode.SelfDividingNumbers(1,22))
+	//fmt.Println(LeetCode.IsPowerOfTwo(18))
+	//fmt.Println(LeetCode.TotalHammingDistance([]int{4, 14, 2}))
+	fmt.Println(LeetCode.SubdomainVisits([]string{"9001 discuss.leetcode.com"}))
 }
