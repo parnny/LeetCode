@@ -44,6 +44,9 @@ func main() {
 	//fmt.Println(LeetCode.LargestTriangleArea([][]int{ {9,7},{6,10},{1,10},{2,7}}))
 	//fmt.Println(LeetCode.LargestTriangleArea([][]int{ {2,5},{7,7},{10,8},{10,10},{1,1}}))
 	//fmt.Println(LeetCode.SumOfLeftLeaves(&tree))
-	fmt.Println(LeetCode.IsBoomerang([][]int{ {1,1},{2,3},{3,2}}))
-	fmt.Println(LeetCode.IsBoomerang([][]int{ {0,1},{0,1},{2,1}}))
+	//fmt.Println(LeetCode.IsBoomerang([][]int{ {1,1},{2,3},{3,2}}))
+	//fmt.Println(LeetCode.IsBoomerang([][]int{ {0,1},{0,1},{2,1}}))
+	//fmt.Println(LeetCode.FindDisappearedNumbers([]int{4,3,2,7,8,2,3,1}))
+	//fmt.Println(LeetCode.FibonacciNumber(2))
+	fmt.Println(LeetCode.HammingWeight(uint32(179)))
 }
