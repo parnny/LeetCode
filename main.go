@@ -6,6 +6,22 @@ import (
 )
 
 func main() {
+	//tree := LeetCode.TreeNode{
+	//	Val:3,
+	//	Left: &LeetCode.TreeNode{
+	//		Val:9,
+	//	},
+	//	Right:&LeetCode.TreeNode{
+	//		Val:20,
+	//		Left: &LeetCode.TreeNode{
+	//			Val:15,
+	//		},
+	//		Right:&LeetCode.TreeNode{
+	//			Val:7,
+	//		},
+	//	},
+	//}
+
 	//fmt.Println(LeetCode.TwoSum( []int{0,3,4,0}, 0 ))
 	//fmt.Println(LeetCode.TwoSum( []int{-1,-2,-3,-4,-5}, -8 ))
 	//fmt.Println(LeetCode.Reverse(-123))
@@ -23,5 +39,11 @@ func main() {
 	//fmt.Println(LeetCode.SelfDividingNumbers(1,22))
 	//fmt.Println(LeetCode.IsPowerOfTwo(18))
 	//fmt.Println(LeetCode.TotalHammingDistance([]int{4, 14, 2}))
-	fmt.Println(LeetCode.SubdomainVisits([]string{"9001 discuss.leetcode.com"}))
+	//fmt.Println(LeetCode.SubdomainVisits([]string{"9001 discuss.leetcode.com"}))
+	//fmt.Println(LeetCode.LargestTriangleArea([][]int{ {0,0},{0,1},{1,0},{0,2},{2,0} }))
+	//fmt.Println(LeetCode.LargestTriangleArea([][]int{ {9,7},{6,10},{1,10},{2,7}}))
+	//fmt.Println(LeetCode.LargestTriangleArea([][]int{ {2,5},{7,7},{10,8},{10,10},{1,1}}))
+	//fmt.Println(LeetCode.SumOfLeftLeaves(&tree))
+	fmt.Println(LeetCode.IsBoomerang([][]int{ {1,1},{2,3},{3,2}}))
+	fmt.Println(LeetCode.IsBoomerang([][]int{ {0,1},{0,1},{2,1}}))
 }
