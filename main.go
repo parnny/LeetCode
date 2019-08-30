@@ -48,5 +48,11 @@ func main() {
 	//fmt.Println(LeetCode.IsBoomerang([][]int{ {0,1},{0,1},{2,1}}))
 	//fmt.Println(LeetCode.FindDisappearedNumbers([]int{4,3,2,7,8,2,3,1}))
 	//fmt.Println(LeetCode.FibonacciNumber(2))
-	fmt.Println(LeetCode.HammingWeight(uint32(179)))
+	//fmt.Println(LeetCode.HammingWeight(uint32(179)))
+	//fmt.Println(LeetCode.ConstructStringFromBinaryTree( LeetCode.ConstructStringFromBinaryTreeTestTree ))
+	//fmt.Println(LeetCode.FindContentChildren( LeetCode.FindContentChildrenInput_1, LeetCode.FindContentChildrenInput_2 ))
+	//fmt.Println(LeetCode.TrimBST(LeetCode.TrimBSTInput2,3,4))
+	//fmt.Println(LeetCode.CountPrimeSetBits(10,15))
+	//fmt.Println(LeetCode.CountPrimeSetBits(6,10))
+	fmt.Println(LeetCode.FindRestaurant(LeetCode.FindRestaurantInput1,LeetCode.FindRestaurantInput2))
 }
