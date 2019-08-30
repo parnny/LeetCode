@@ -58,6 +58,7 @@ func main() {
 	//fmt.Println(LeetCode.BaseballGameCalPoints(LeetCode.BaseballGameCalPointsInput1))
 	//fmt.Println(LeetCode.BaseballGameCalPoints(LeetCode.BaseballGameCalPointsInput2))
 	//fmt.Println(LeetCode.LetterCasePermutation("c"))
-	fmt.Println(LeetCode.BinaryTreePaths(LeetCode.BinaryTreePathsInput))
+	//fmt.Println(LeetCode.BinaryTreePaths(LeetCode.BinaryTreePathsInput))
+	fmt.Println(LeetCode.LengthOfLastWord("a"))
 
 }
