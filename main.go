@@ -54,5 +54,10 @@ func main() {
 	//fmt.Println(LeetCode.TrimBST(LeetCode.TrimBSTInput2,3,4))
 	//fmt.Println(LeetCode.CountPrimeSetBits(10,15))
 	//fmt.Println(LeetCode.CountPrimeSetBits(6,10))
-	fmt.Println(LeetCode.FindRestaurant(LeetCode.FindRestaurantInput1,LeetCode.FindRestaurantInput2))
+	//fmt.Println(LeetCode.FindRestaurant(LeetCode.FindRestaurantInput1,LeetCode.FindRestaurantInput2))
+	//fmt.Println(LeetCode.BaseballGameCalPoints(LeetCode.BaseballGameCalPointsInput1))
+	//fmt.Println(LeetCode.BaseballGameCalPoints(LeetCode.BaseballGameCalPointsInput2))
+	//fmt.Println(LeetCode.LetterCasePermutation("c"))
+	fmt.Println(LeetCode.BinaryTreePaths(LeetCode.BinaryTreePathsInput))
+
 }
