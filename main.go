@@ -57,8 +57,14 @@ func main() {
 	//fmt.Println(LeetCode.FindRestaurant(LeetCode.FindRestaurantInput1,LeetCode.FindRestaurantInput2))
 	//fmt.Println(LeetCode.BaseballGameCalPoints(LeetCode.BaseballGameCalPointsInput1))
 	//fmt.Println(LeetCode.BaseballGameCalPoints(LeetCode.BaseballGameCalPointsInput2))
-	//fmt.Println(LeetCode.LetterCasePermutation("c"))
+	//fmt.Println(LeetCode.LetterCasePermutation("a1b2c3"))
 	//fmt.Println(LeetCode.BinaryTreePaths(LeetCode.BinaryTreePathsInput))
-	fmt.Println(LeetCode.LengthOfLastWord("a"))
-
+	//fmt.Println(LeetCode.LengthOfLastWord("a"))
+	//fmt.Println(LeetCode.FindComplement(1))
+	//fmt.Println(LeetCode.PeakIndexInMountainArray([]int{0,2,1,0}))
+	//fmt.Println(LeetCode.RelativeSortArray([]int{28,6,22,8,44,17},[]int{22,28,8,6}))
+	//fmt.Println(LeetCode.SortArrayByParityII([]int{4,2,5,7}))
+	//fmt.Println(LeetCode.IsCousinsInBinaryTree(LeetCode.CousinsInBinaryTreeInput1,4,3))
+	//fmt.Println(LeetCode.IsCousinsInBinaryTree(LeetCode.CousinsInBinaryTreeInput2,4,5))
+	//fmt.Println(LeetCode.LargestPerimeterTriangle([]int{3,2,3,4}))
 }

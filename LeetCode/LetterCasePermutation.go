@@ -55,9 +55,57 @@ func ConcatLetterCaseNode(pre string, node *LetterCaseNode, list *[]string) {
 	}
 }
 
+
+func dg(s []byte, i int, ans *[]string ) {
+	if i == len(s) {
+		*ans = append(*ans, string(s))
+		return
+	}
+	dg(s,i+1,ans)
+	if s[i] < '0' || s[i] > '9' {
+		s[i]^=(1<<5)
+		dg(s,i+1,ans)
+	}
+}
+
 func LetterCasePermutation(S string) []string {
-	root := LetterCaseCreateTree(S)
+	//var list []string
+	//list := make([]string,0,1<<uint32(len(S)))
+	//dg([]byte(S),0,&list)
+
 	var list []string
-	ConcatLetterCaseNode("", root, &list)
+	for _,c := range S {
+
+		lenght := len(list)
+		for i := lenght - 1; i >= 0; i-- {
+			pre := list[i]
+
+			if c >= 48 && c <= 57 {
+				list[i] = pre + string(c)
+			} else {
+				list[i] = pre + strings.ToLower(string(c))
+				list = append(list, pre + strings.ToUpper(string(c)))
+			}
+		}
+	}
+
+
+	//root := LetterCaseCreateTree(S)
+	//ConcatLetterCaseNode("", root, &list)
 	return list
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
